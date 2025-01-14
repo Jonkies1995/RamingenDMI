@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raming Invoeren</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Geef je raming door</h2>
+        <form action="submit_raming.php" method="post">
+            <div class="input-group">
+                <label for="raming">Jouw raming</label>
+                <input type="text" id="raming" name="raming" required placeholder="Vul hier je raming in">
+            </div>
+            <button type="submit">Verstuur Raming</button>
+        </form>
+    </div>
+</body>
+</html>
